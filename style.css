@@ -87,12 +87,37 @@
     border: none;
 }
 
+/*Regole Footer*/
+
+/*Sezione Top*/
+
 #information-site {
     background-color: #3A546D;
-    height: 200px;
+    padding: 50px;
+    color: #fff;
 }
+
+.ms_ft-color {
+    color:#1ABC9C;
+}
+
+.ms_ft-icons i {
+    padding: 10px;
+    border: 1px #fff solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+}
+
+/*Sezione Bottom*/
 
 #copyright {
     background-color: #2C3E5A;
-    height: 100px;
+    padding: 30px;
+    color: #fff;
+}
+
+#copyright h6 {
+    font-size: 14px;
 }
