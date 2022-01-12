@@ -46,12 +46,28 @@
 
 #portfolio {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
+
+#portfolio h1 {
+    font-weight: bold;
+}
+
+/*Regole About*/
 
 #about {
     background-color: #1ABC9C;
-    height: 400px;
+    color: #fff;
+}
+
+.ms_about-sec-size {
+    width: 64%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#about p {
+    padding: 20px;
 }
 
 #contact-me {
