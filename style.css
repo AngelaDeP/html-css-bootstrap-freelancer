@@ -1,16 +1,52 @@
-header {
+/*Regole header*/
+
+.ms_header {
     background-color: #2C3E5A;
-    height: 100px;
 }
 
-#jumbotron {
-    background-color: #1ABC9C;
-    height: 500px;
+.ms_header-links a {
+    color: #fff;
 }
+
+.ms_biggerfont a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ms_h-links:hover a {
+    color: #1ABC9C;
+}
+
+/*Regole jumbotron*/
+
+.ms_jbtron {
+    background-color: #1ABC9C;
+    padding-top: 100px;
+}
+
+.ms_img-style {
+    width: 200px;
+    height: auto;
+}
+
+#jumbotron h1 {
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#jumbotron h3 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+/*Regole Portfolio*/
 
 #portfolio {
-    background-color: #d0eee8;
-    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #about {
