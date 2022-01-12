@@ -70,9 +70,21 @@
     padding: 20px;
 }
 
-#contact-me {
-    background-color: #d0eee8;
-    height: 500px;
+/*Regole Contact*/
+
+.ms_contact-sec-size {
+    width: 64%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#contact-me form {
+    text-align: left;
+}
+
+#contact-me button {
+    background-color: #1ABC9C;
+    border: none;
 }
 
 #information-site {
