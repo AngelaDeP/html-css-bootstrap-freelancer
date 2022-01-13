@@ -55,11 +55,6 @@
 
 /*Regole Portfolio Hover*/
 
-.ms_item-portfolio {
-    position: relative;
-    border-radius: 10px;
-}
-
 .ms_img-overlay {
     position: absolute;
     width: 100%;
@@ -68,13 +63,22 @@
     left: 0;
     background-color: #1ABC9C;
     opacity: 0.5;
-    text-align: center;
-    line-height: 50%;
+    border-radius: 5px;
+    display: none;
 }
 
 .ms_img-overlay i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     color: #fff;
     font-size: 60px;
+}
+
+.ms_container-img:hover .ms_img-overlay {
+    display: block;
 }
 
 /*Regole About*/
